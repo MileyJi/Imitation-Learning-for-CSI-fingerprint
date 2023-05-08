@@ -18,6 +18,7 @@ To see how the specification has been applied, see the [imitationLearn_Lab.py](h
 In addition, the paper also utilize our previous work [Path Planning for Adaptive CSI Map Construction With A3C in Dynamic Environments](https://ieeexplore.ieee.org/abstract/document/9629332) for obtaining the optimal path, and you can refer to the [code](https://github.com/qiang5love1314/Path-planning-based-on-A3C) for more details.
 
 ## Arguments
+```
 iterations: Number of training iterations (default is 100).
 learning_rate: Learning rate for the optimizer (default is 1e-2).
 input_dim: Dimension of the input data (default is 32).
@@ -26,3 +27,4 @@ latent_dim: Dimension of the latent space in the model (default is 32).
 num_segments: Number of segments to divide the time series into (default is 10).
 step_length: Number of the maximum exploration step length (default is 100).
 n_neighbors: Number of neighbors for KNN (default is 5).
+```
