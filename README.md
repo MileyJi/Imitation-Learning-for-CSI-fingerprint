@@ -28,3 +28,6 @@ num_segments: Number of segments to divide the time series into (default is 10).
 step_length: Number of the maximum exploration step length (default is 100).
 n_neighbors: Number of neighbors for KNN (default is 5).
 ```
+
+## License
+[MIT](LICENSE) © Xiaoqiang Zhu
