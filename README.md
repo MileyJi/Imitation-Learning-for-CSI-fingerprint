@@ -20,6 +20,8 @@ In addition, the paper also utilize our previous work [Path Planning for Adaptiv
 Here is a GIF to show the process of dynamically searching for the optimal path.
 ![img](https://github.com/qiang5love1314/Imitation-Learning-for-CSI-fingerprint/blob/main/searchPath.GIF)
 
+<img src="https://github.com/qiang5love1314/Imitation-Learning-for-CSI-fingerprint/blob/main/searchPath.GIF", width="200" height="200">
+
 ## Arguments
 ```
 iterations: Number of training iterations (default is 100).
