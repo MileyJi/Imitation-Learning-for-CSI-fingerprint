@@ -21,6 +21,8 @@ Here is a GIF to show the process of dynamically searching for the optimal path.
 <figure>
 <img src="https://github.com/qiang5love1314/Imitation-Learning-for-CSI-fingerprint/blob/main/searchPath.GIF", width="400" height="400">
  <figcaption>Figure 1: Searching the optimal path.</figcaption>
+</figure>
+<figure>
 <img src="https://github.com/qiang5love1314/Imitation-Learning-for-CSI-fingerprint/blob/main/lab.jpg", width="450" height="400">
  <figcaption>Figure 2: The corresponding result.</figcaption>
 </figure>
