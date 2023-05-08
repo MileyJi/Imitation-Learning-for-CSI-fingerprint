@@ -4,83 +4,8 @@ EU project 732328: "Fashion Brain".
 
 D1.4: "Software Requirements: SSM library for time-series modeling and trend prediction".
 
-## Tasks
-
-### Prediction and forecasting
-
-We assume we are given sample paths from a time-series: 
-Thus:
-
-![alt text](./img/timeseries.png)
-
-Where the sample paths are all drawn from an underlying model:
-
-![alt text](./img/dist.png)
-
-The aim in forecasting is to predict future time-points from sample past time points.
-I.e. we would be interested in estimating:
-
-![alt text](./img/expectation.png)
-
-or
-
-![alt text](./img/conditional.png)
-
-In this package we follow the ansatz that the dependency is completely determined by the hidden state of a recurrent neural network.
-
-![alt text](./img/hiddep.png)
-
-where the RNN recurrence relation is given by:
-
-![alt text](./img/recur.png)
-
-### Distribution modeling with NADE
-
-Here we are interested in estimating the distribution of a multivariate vector without necessarily assuming a temporal or sequential ordering.
-Nevertheless we still have a decomposition of the joint distribution:
-
-![alt text](./img/decomposition.png)
-
-Which may be modeled again using an RNN:
-
-![alt text](./img/nade.png)
-
-This approach is known as [neural autoregressive distribution estimation (NADE)](http://proceedings.mlr.press/v15/larochelle11a/larochelle11a.pdf).
-
-### Missing value estimation
-
-In many applications missing data is an issue which hampers both training and inference.
-Thus we are given a sequence of data where only a subsequence is available. For example:
-
-![alt text](./img/missing.png)
-
-Assume we are given an RNN model:
-
-![alt text](./img/recur.png)
-
-and a parameterized estimate of the conditional distribution:
-
-![alt text](./img/kernel.png)
-
-In this package we take a [sequential importance sampling (SIS)](https://en.wikipedia.org/wiki/Particle_filter) approach to inferring missing data given this model of the time-series.
-If, additionally, data is missing at training time, we employ an [expectation-maximization (EM)](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) training algorithm, rather than a standard backpropagation through (BPTT) time algorithm.
-
-### Multivariate temporal dependencies
-
-In the simplest case suppose we have two time series. Temporal dependencies may be modeled by treating the interleaved sequence:
-
-![alt text](./img/interleaved.png)
-
-At test time, predicting one unseen time-series given an observed time-series may be treated as a missing value problem and applying SIS to the sequence:
-
-![alt text](./img/missinginterleaved.png)
-
-
 ## Python package
 
-### Structure
-
-![alt text](./img/flow.png)
 
 ### Getting started
 
