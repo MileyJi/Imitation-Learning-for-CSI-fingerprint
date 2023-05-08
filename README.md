@@ -9,3 +9,4 @@ pip install -r requirements.txt
 ```
 
 # Usage
+To use the dataset, look at [CSI-dataset](https://github.com/qiang5love1314/CSI-dataset).
