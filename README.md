@@ -18,11 +18,12 @@ The main files are the [imitationLearn_Lab.py](https://github.com/qiang5love1314
 In addition, the paper also utilize our previous work [Path Planning for Adaptive CSI Map Construction With A3C in Dynamic Environments](https://ieeexplore.ieee.org/abstract/document/9629332) for obtaining the optimal path, and you can refer to the [code](https://github.com/qiang5love1314/Path-planning-based-on-A3C) for more details.
 
 Here is a GIF to show the process of dynamically searching for the optimal path.
-<p align="left">
+<figure>
 <img src="https://github.com/qiang5love1314/Imitation-Learning-for-CSI-fingerprint/blob/main/searchPath.GIF", width="400" height="400">
- 
+ <figcaption>Figure 1: Searching the optimal path.</figcaption>
 <img src="https://github.com/qiang5love1314/Imitation-Learning-for-CSI-fingerprint/blob/main/lab.jpg", width="450" height="400">
-</p>
+ <figcaption>Figure 2: The corresponding result.</figcaption>
+</figure>
 
 ## Arguments
 ```
