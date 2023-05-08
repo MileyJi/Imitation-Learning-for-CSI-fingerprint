@@ -9,7 +9,7 @@ pip install -r requirements.txt
 ```
 
 # Usage
-To use the dataset, look at [CSI-dataset](https://github.com/qiang5love1314/CSI-dataset).
+To use the dataset, look at [CSI-dataset](https://github.com/qiang5love1314/CSI-dataset). In this paper, we used the CSI data of the lab and meeting room. Moreover, we provide two additional fingerprint database data sets for the new environments (mini lab and conference room) to show the portability of the proposed algorithm.
 
 ## Example Readmes
 
