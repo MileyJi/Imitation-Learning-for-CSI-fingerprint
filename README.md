@@ -19,7 +19,7 @@ In addition, the paper also utilize our previous work [Path Planning for Adaptiv
 
 Here is a GIF to show the process of dynamically searching for the optimal path.
 
-<img src="https://github.com/qiang5love1314/Imitation-Learning-for-CSI-fingerprint/blob/main/searchPath.GIF", width="200" height="200">
+<img src="https://github.com/qiang5love1314/Imitation-Learning-for-CSI-fingerprint/blob/main/searchPath.GIF", width="100" height="100">
 
 ## Arguments
 ```
