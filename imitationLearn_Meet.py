@@ -330,7 +330,7 @@ if __name__ == '__main__':
     prediction = KNN.predict(testdata1)
     Training_time = time.time() - time_start
 
-    print(accuracyPre(prediction, testlabel1), 'm')     # k=5 2.9838768347865745 m      原始数据集 3.284360467046476 m
-    print(accuracyStd(prediction, testlabel1), 'm')     # 1.2587609124945254 m          原始数据集 1.2124154908702922 m
-    print(Training_time, 's')                           # 0.0006349086761474609 s       原始数据集 0.06902885437011719 s
+    print(accuracyPre(prediction, testlabel1), 'm')
+    print(accuracyStd(prediction, testlabel1), 'm')
+    print(Training_time, 's')
     # saveTestErrorMat(prediction, testlabel1, 'Predict-Meet-Error')
